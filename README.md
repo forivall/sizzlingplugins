@@ -5,6 +5,19 @@
 Various client and server plugins developed in C++ for Team Fortress(R) 2 and the Source(R) Engine.
 
 
+## Building
+- - -
+
+In the parent directory of `SizzlingPlugins.sln` file is in, checkout hl2sdk-ob-valve, and switch to the `sizzlingplugins` branch.
+
+To have the plugins automatically installed, create a `TF2_DIR.txt` file in the same directory as `SizzlingPlugins.sln`, with a path to your teamfortress directory (ex. `D:\Program Files\Steam\steamapps\jordan427\Team Fortress 2\tf`).
+
+In order to actually run the client side plugins (sizzlingrecord), you need to use the `-insecure` flag in the launch options for TF2. ([Source Documentation](https://developer.valvesoftware.com/wiki/Client_plugins))
+
+### Windows
+ 
+Use the provided solution, and build.
+
 ## Contact
 - - -
 

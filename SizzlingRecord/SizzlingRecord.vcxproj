@@ -63,7 +63,7 @@
     </Link>
     <PostBuildEvent>
       <Command>rename "$(TargetDir)$(TargetFileName)"  "sizzlingrecord.dll"
-move /Y "$(TargetDir)\sizzlingrecord.dll" "D:\Program Files\Steam\steamapps\jordan427\Team Fortress 2\tf\addons\sizzlingplugins\sizzlingrecord\"</Command>
+$(ProjectDir)\install.bat "$(TargetDir)\sizzlingrecord.dll"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -79,7 +79,7 @@ move /Y "$(TargetDir)\sizzlingrecord.dll" "D:\Program Files\Steam\steamapps\jord
     </Link>
     <PostBuildEvent>
       <Command>rename "$(TargetDir)$(TargetFileName)"  "sizzlingrecord.dll"
-move /Y "$(TargetDir)\sizzlingrecord.dll" "D:\Program Files\Steam\steamapps\jordan427\Team Fortress 2\tf\addons\sizzlingplugins\sizzlingrecord\"</Command>
+$(ProjectDir)\install.bat "$(TargetDir)\sizzlingrecord.dll"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
